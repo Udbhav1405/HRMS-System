@@ -1,0 +1,8 @@
+{
+  "name": "HRMS System",
+  "description": "A minimalist Human Resource Management System with multi-role dashboards (Admin, Manager, HR, Employee), task pipeline, profile management, attendance logs, and automated salary slip reports.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

@@ -1,0 +1,26 @@
+// SQLite Database Client Wrapper (Re-exported for full SQLite Database Persistence & Local Durability)
+export {
+  fetchAllFromSQLite,
+  saveToSQLite,
+  resetSQLiteDB,
+  executeSql,
+  getDatabaseStats,
+  subscribeToSQLite,
+  subscribeToSQLite as subscribeToGoogleSheets,
+  subscribeToSQLite as subscribeToAllFirestore,
+  fetchAllFromSQLite as fetchAllFromGoogleSheets,
+  saveToSQLite as saveToGoogleSheets,
+  resetSQLiteDB as resetGoogleSheetsDB,
+  fetchAllFromSQLite as fetchAllFromFirestore,
+  saveToSQLite as saveToFirestore,
+  resetSQLiteDB as resetFirestoreDB,
+  flushPendingWrites,
+  getLocalCache,
+  setLocalCache,
+  getOrCreateSpreadsheet,
+  getSavedSpreadsheetId,
+  getSavedSpreadsheetUrl,
+  isExcludedStaff,
+  sanitizeDefaultContactDetails,
+  ensureStaffOrder
+} from './sqlClient.ts';

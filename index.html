@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <title>HRMS System - Enterprise Workforce &amp; Payroll Management</title>
+    <meta name="description" content="Manage workforce operations, verified biometric attendance logs, team tasks, and automated monthly salary PDF disbursement reports with HRMS System." />
+    <meta name="keywords" content="HRMS, Human Resource Management System, Payroll, Attendance Tracking, Salary Slip PDF, Workforce Management" />
+    <meta name="author" content="HRMS System" />
+    <meta name="theme-color" content="#4f46e5" />
+    
+    <!-- Favicon & Canonical -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    
+    <!-- OpenGraph Social Cards -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="HRMS System" />
+    <meta property="og:title" content="HRMS System - Enterprise Workforce &amp; Payroll Management" />
+    <meta property="og:description" content="Manage workforce operations, verified biometric attendance logs, team tasks, and automated monthly salary PDF disbursement reports with HRMS System." />
+    <meta property="og:image" content="/og-image.svg" />
+    <meta property="og:image:type" content="image/svg+xml" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="HRMS System - Enterprise Workforce and Payroll Management" />
+    
+    <!-- Twitter / X Cards -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="HRMS System - Enterprise Workforce &amp; Payroll Management" />
+    <meta name="twitter:description" content="Manage workforce operations, verified biometric attendance logs, team tasks, and automated monthly salary PDF disbursement reports with HRMS System." />
+    <meta name="twitter:image" content="/og-image.svg" />
+    
+    <!-- Schema.org Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "HRMS System",
+      "operatingSystem": "All",
+      "applicationCategory": "BusinessApplication",
+      "description": "Enterprise Human Resource Management System with multi-role dashboards, task pipeline, verified attendance logs, and automated monthly salary PDF reports.",
+      "author": {
+        "@type": "Organization",
+        "name": "HRMS System"
+      },
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "INR"
+      }
+    }
+    </script>
+    <script>
+      // Suppress benign WebSocket HMR errors in cloud runner
+      window.addEventListener('unhandledrejection', function (event) {
+        var reason = event.reason;
+        var msg = (reason && (reason.message || reason.toString())) || '';
+        if (
+          msg.includes('WebSocket closed without opened') ||
+          msg.includes('failed to connect to websocket')
+        ) {
+          event.preventDefault();
+          event.stopImmediatePropagation();
+        }
+      });
+      window.addEventListener('error', function (event) {
+        var msg = (event && (event.message || '')) || '';
+        if (
+          msg.includes('WebSocket') ||
+          msg.includes('failed to connect to websocket')
+        ) {
+          event.preventDefault();
+          event.stopImmediatePropagation();
+        }
+      });
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
